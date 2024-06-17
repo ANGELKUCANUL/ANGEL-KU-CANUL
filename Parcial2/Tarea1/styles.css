@@ -1,0 +1,12 @@
+.completed {
+    color: green;
+    text-decoration: line-through;
+}
+
+.expired {
+    color: red;
+}
+
+.pending {
+    color: black;
+}
