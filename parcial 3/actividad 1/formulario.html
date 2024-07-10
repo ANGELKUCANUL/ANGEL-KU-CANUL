@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pasaporte</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <!-- Contenido adicional, si lo deseas -->
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Apellido (como se muestra en su pasaporte)" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Solo nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fecha-nacimiento" required>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad-nacimiento">Ciudad de nacimiento</label>
+                    <input type="text" id="ciudad-nacimiento" placeholder="Ciudad de nacimiento" required>
+                </div>
+                <div class="form-group">
+                    <label for="pais-nacimiento">País de nacimiento</label>
+                    <select id="pais-nacimiento" required>
+                        <option value="">Selecciona un país</option>
+                        <option value="Spain">España</option>
+                        <option value="USA">Estados Unidos</option>
+                        <option value="UK">Reino Unido</option>
+                        <!-- Agrega más opciones según sea necesario -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="nacionalidad">Nacionalidad</label>
+                    <select id="nacionalidad" required>
+                        <option value="">Selecciona una nacionalidad</option>
+                        <option value="Spain">Español/a</option>
+                        <option value="USA">Estadounidense</option>
+                        <option value="UK">Británico/a</option>
+                        <!-- Agrega más opciones según sea necesario -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="numero-pasaporte">Número de pasaporte</label>
+                    <input type="text" id="numero-pasaporte" placeholder="Número de pasaporte" required>
+                </div>
+                <div class="form-group">
+                    <label for="pais-emision">País donde ha sido emitido su pasaporte</label>
+                    <select id="pais-emision" required>
+                        <option value="">Selecciona un país</option>
+                        <option value="Spain">España</option>
+                        <option value="USA">Estados Unidos</option>
+                        <option value="UK">Reino Unido</option>
+                        <!-- Agrega más opciones según sea necesario -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fecha-emision">Fecha de emisión del pasaporte</label>
+                    <input type="date" id="fecha-emision" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha-vencimiento">Fecha de vencimiento de su pasaporte</label>
+                    <input type="date" id="fecha-vencimiento" required>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
