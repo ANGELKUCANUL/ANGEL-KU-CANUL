@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Ejercicio 1: Filtro de Arreglos</h2>
+        <textarea id="input-ejercicio-1" class="textarea-small" placeholder="Ingrese nombres y edades en formato 'nombre,edad' separados por saltos de línea. Ejemplo: Juan,17\nAna,22"></textarea>
+        <button onclick="ejecutarEjercicio1()">Filtrar Mayores de Edad</button>
+        <div id="resultado-ejercicio-1" class="resultado"></div>
+    </div>
+
+    <div class="container">
+        <h2>Ejercicio 2: Transformar y Filtrar Arreglos</h2>
+        <input id="input-ejercicio-2" placeholder="Ingrese números separados por comas. Ejemplo: 1, 2, 3, 4, 5">
+        <button onclick="ejecutarEjercicio2()">Transformar y Filtrar</button>
+        <div id="resultado-ejercicio-2" class="resultado"></div>
+    </div>
+
+    <div class="container">
+        <h2>Ejercicio 3: Promesas y Asincronía</h2>
+        <button onclick="obtenerUsuarios()">Obtener Usuarios</button>
+        <div id="resultado-ejercicio-3"></div>
+    </div>
+
+    <div class="container">
+        <h2>Ejercicio 4: Manipulación Compleja del DOM</h2>
+        <ul id="lista"></ul>
+        <button onclick="agregarElemento()">Agregar nuevo ítem</button>
+    </div>
+
+    <div class="container">
+        <h2>Ejercicio 5: Algoritmos y Estructuras de Datos</h2>
+        <textarea id="input-ejercicio-5" class="textarea-small" placeholder="Ingrese objetos en formato 'nombre,edad' separados por saltos de línea. Ejemplo: Juan,17\nAna,22"></textarea>
+        <div class="botones-filtro">
+            <button onclick="ejecutarEjercicio5('nombre')">Ordenar por Nombre</button>
+            <button onclick="ejecutarEjercicio5('edad')">Ordenar por Edad</button>
+        </div>
+        <div id="resultado-ejercicio-5" class="resultado"></div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
+
+
